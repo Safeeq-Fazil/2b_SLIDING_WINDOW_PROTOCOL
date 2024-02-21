@@ -39,7 +39,7 @@ while True:
  print(s.recv(1024).decode())
  s.send("acknowledgement recived from the server".encode())
 ```
-## OUPUT
+## OUTPUT
 ### CLIENT
 ![image](https://github.com/Safeeq-Fazil/2b_SLIDING_WINDOW_PROTOCOL/assets/118680361/20101090-9d81-484e-afc9-39cdc62e9a8d)
 
